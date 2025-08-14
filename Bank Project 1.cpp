@@ -234,8 +234,8 @@ void SaveClientsToFile(string FileName, vector <sClient> &vClients) // بحفظ 
 	{
 		for (sClient &C : vClients)
 		{
-			//  هتكون ب ترواو لو عدلت علي عميل ف نفس الكلامMake for delete ال  by default الخطوه دي عصفورين بحجر , لو الاضافه عميل جديد ف اوريدي   
-			//بفولس ف م هيتحط ف الفايل Make for delete تاني حاجه ف جزء مسح عميل هتكون 
+			//  هتكون ب فولس لو عدلت علي عميل ف نفس الكلامMake for delete ال  by default الخطوه دي عصفورين بحجر , لو الاضافه عميل جديد ف اوريدي   
+			//بترو ف م هيتحط ف الفايل Make for delete تاني حاجه ف جزء مسح عميل هتكون 
 
 			if (C.MarkForDelete == false)  
 			{
